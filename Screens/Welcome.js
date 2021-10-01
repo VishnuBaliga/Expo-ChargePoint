@@ -88,7 +88,8 @@ const styles = StyleSheet.create({
   actionBtn:{
     width:'60%',
     color: '#fff',
-    padding:12,
+    paddingHorizontal:12,
+    paddingVertical:12,
     marginTop:24,
     backgroundColor: '#55C595', 
     borderRadius: 10 ,
@@ -142,7 +143,8 @@ const styles = StyleSheet.create({
     fontSize: 24,
     marginTop: 36,
     borderWidth: 2,
-    padding: 10,
+    paddingVertical: 10,
+    paddingHorizontal: 10,
     width:'80%',
     borderColor: 'transparent',
     borderBottomColor: '#6BC7A6'
